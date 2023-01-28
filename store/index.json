@@ -30,6 +30,21 @@
 			"feat": "Fast, Powerful Editing-Linting, multi-cursor editing, parameter hints, and other powerful editing features.\nOver 30,000 extensions, and growing - Enable additional languages, themes, debuggers, commands, and more. VS Code's growing community shares their secret sauce to improve your workflow.\nBuild any app type, using any programming language and framework, including JavaScript and TypeScript, Python, Java, C/C++, C#, Go, Rust, PHP, and many more, as well as many popular technologies.\nSupport for notebooks including Jupyter, for data science and Al development.\nBuilt-in support for Git source control management and integrations with GitHub for managing issues and pull requests.\nIntelligent Code Completion - IntelliSense and Al-driven IntelliCode offer completions for variables, methods, and imported modules.\nRich Debugging-Print debugging is a thing of the past. Use debugging tools directly in VS Code.\nWrite code from anywhere with the Visual Studio Code Remote extensions and support for GitHub Codespaces."
 		}
 	},
+ {
+  "name": "Eaglercraft", // unique name (check if it has been used already in the file)
+  "icon": "https://styles.redditmedia.com/t5_60aj9d/styles/communityIcon_serayq82g91a1.jpg", // logo image, preferrably 1:1 and less than 128px of width
+  "type": "game", // game or app
+  "data": {
+    "type": "IFrame", // type currently supports IFrame only
+    "url": "https://eaglercraft.ru/", // url of the app and make sure they accept Iframe
+    "gallery": [ // three or more images for gallery view in store app
+      "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f9/Java_Edition_1.6.2.png/revision/latest?cb=20191229200712"
+    ],
+    "desc": "Mc java 1.5.2 and 1.8.8", // description for store app
+    "feat": "1.5.2 support singleplayer\1.8.8 mutiplayer.", // features for store app
+    "invert": true, // when true it forces dark theme for game/app window, default is false.
+  },
+}
  
  	{
 		"name": "WSA",
@@ -804,4 +819,19 @@
     	"feat": "Inception",
     	"invert": true
   }
+	     {
+  		"name": "eaglercraft",
+  		"icon": "https://styles.redditmedia.com/t5_60aj9d/styles/communityIcon_serayq82g91a1.jpg",
+  		"type": "game",
+  		"data": {
+    			"type": "IFrame",
+    			"url": "https://eaglercraft.ru/",
+    			"gallery": [
+	    "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f9/Java_Edition_1.6.2.png/revision/latest?cb=20191229200712"
+     ],
+    	"desc": "a mc launcher",
+    	"feat": "mc 1.8.8 1.5.2",
+    	"invert": true
+  }
+	  
 }]
